@@ -1,0 +1,50 @@
+#sidebar > .col-md-7
+{
+    margin: 0 0 0 6.7%;
+    
+}
+
+#sidebar-img > img
+{
+   width:100%; 
+}
+
+#sidebar-text > h4,h3
+{
+  margin-left:20px;
+  color:red; 
+  text-align: left  
+}
+
+#sidebar-text > h3
+{
+    font-size:35px;
+}
+
+#sidebar-text > blockquote
+{
+    border-left: 1px solid #ccc;
+    color:red;
+    margin: 25px;
+    padding: 0 12px 0 12px;
+    font-style: italic;
+}
+
+#sidebar2
+{
+  width:150%; 
+  /*height:89%;*/
+}
+
+#sidebar2 > h2
+{
+    text-align: center;
+    color:red;
+    font-size: 3em;
+}
+
+#sidebar2 > h4
+{
+    text-align: center;
+    font-size: 2em;
+}

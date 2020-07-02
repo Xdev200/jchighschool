@@ -1,0 +1,56 @@
+#aboutus > img
+{
+ margin:4px 0 0 7px; 
+ width:750px;
+ height: 420px; 
+}
+
+#aboutus-text > h1,p
+{
+    margin:5px 0 0 0;
+}
+
+#aboutus-text > p
+{
+    text-align: justify;
+/*    border-left: 4px red solid;*/
+    border-right:5px #fff solid;
+    border-bottom:5px #fff solid;
+    padding: 0 0 0 5px;
+    font-size:100%;
+}
+
+@media all and (max-width:1024px)
+{
+    #aboutus > img
+    {
+        height: 520px;
+    }
+  
+}
+@media only screen and (max-width:1050px)
+{
+    #aboutus > img
+    {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width:1200px)
+{
+    #aboutus > img
+    {
+        height: 440px;
+    }
+}
+
+@media only screen and (max-width:1300px)
+{
+    #aboutus > img
+    {
+        height: 440px;
+    }
+}
+
+
+

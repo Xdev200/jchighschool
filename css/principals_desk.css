@@ -1,0 +1,54 @@
+#principal-desk > img
+{
+   margin:4px 0 0 7px; 
+   width:750px;
+   height: 520px
+}
+
+#principal-desk-text > h1,p
+{
+  margin:3px 0 0 0;  
+}
+
+#principal-desk-text > p
+{
+    text-align: justify;
+/*    border-left: 4px red solid;*/
+    border-right:5px #fff solid;
+    border-bottom:5px #fff solid;
+    padding: 0 0 0 5px;
+    font-size:100%;
+    
+}
+
+@media all and (max-width:1024px)
+{
+    #principal-desk > img
+    {
+        height: 620px;
+    }
+  
+}
+@media only screen and (max-width:1050px)
+{
+    #principal-desk > img
+    {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width:1200px)
+{
+    #principal-desk > img
+    {
+        height: 440px;
+    }
+}
+
+@media only screen and (max-width:1300px)
+{
+    #principal-desk > img
+    {
+        height: 440px;
+    }
+}

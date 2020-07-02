@@ -1,0 +1,134 @@
+#menu
+{
+   
+}
+
+#myNavbar
+{
+   
+/*  border:2px red solid;*/
+  margin-left:30%;
+  font-size: 16px;
+}
+
+#header
+{
+    
+    
+}
+
+#header > img
+{
+    
+   
+}
+
+#header-item > h1
+{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-shadow: 3px 3px #333333;
+  text-align: center;
+  padding: 0 0 0 5px;
+}
+
+#header-item > p
+{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media all and (max-width:1024px)
+{
+   #header > img
+  {
+    text-align: center;
+    width:120px;
+    margin: 0 0 0 45%;
+    
+  }
+
+  #header-item > h1
+  {
+    text-align: center;
+    font-size:25px;
+  }
+
+  #header-item > p
+  {
+      text-align: center;
+      font-size: 12px;
+  }   
+}
+@media only screen and (max-width:1050px)
+{
+  #header > img
+  {
+    text-align: center;
+    width:120px;
+    
+  }
+
+  #header-item > h1
+  {
+    text-align: center;
+    font-size:35px;
+  }
+
+  #header-item > p
+  {
+      text-align: center;
+      font-size: 10px;
+  }  
+}
+
+@media only screen and (max-width:1150px)
+{
+  #header > img
+  {
+    text-align: center;
+    width:120px;
+  }
+
+  #header-item > h1
+  {
+    text-align: center;
+    font-size:40px;
+  }
+
+  #header-item > p
+  {
+      text-align: center;
+      font-size: 10px;
+  }  
+}
+
+@media only screen and (max-width:1200px)
+{
+  #header > img
+  {
+    text-align: center;
+    width:120px;
+  }
+
+  #header-item > h1
+  {
+    text-align: center;
+    font-size:40px;
+  }
+
+  #header-item > p
+  {
+      text-align: center;
+      font-size: 10px;
+  }  
+}

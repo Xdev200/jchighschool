@@ -1,0 +1,24 @@
+/*
+.sitemap > ul
+{
+    list-style: none;
+    font-size:20px;
+}
+.sitemap > ul > li > a
+{
+  color:#ffffff; 
+  font-size: 24px;  
+}*/
+
+.sitemap
+{
+    list-style: none;
+    color:red;
+    font-size:20px;
+}
+
+.sitemap > li > a
+{
+    color:red;
+    font-size:18px;
+}
